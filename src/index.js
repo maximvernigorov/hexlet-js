@@ -1,3 +1,3 @@
-import { get } from 'lodash';
+import _ from 'lodash';
 
-export const func = (key) => get({ a: 5 }, key);
+export const func = (key) => _.get({ a: 5 }, key);
